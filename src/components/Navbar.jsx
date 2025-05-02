@@ -8,10 +8,10 @@ const Navbar = () => {
   const navItems = [
     "Home",
     "About",
+    "Expertise",
     "Destinations",
     "Packages",
     "Booking",
-    "Gallery",
     "Contact",
   ];
 
