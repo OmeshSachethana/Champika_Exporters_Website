@@ -64,10 +64,17 @@ const About = () => {
         </div>
 
         <div className="text-center">
-          <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl">
-            Learn More About Our Services
-          </button>
-        </div>
+  <a
+    href="https://applications.slbfe.lk/jobbank/jsearchdisplay_an_m.asp?an=0110"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl">
+      Learn More About Our Services
+    </button>
+  </a>
+</div>
+
       </div>
     </section>
   );
