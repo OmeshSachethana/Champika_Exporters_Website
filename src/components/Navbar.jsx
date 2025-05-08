@@ -9,9 +9,8 @@ const Navbar = () => {
     "Home",
     "About",
     "Expertise",
-    "Destinations",
     "Packages",
-    "Booking",
+    "Destinations",
     "Contact",
   ];
 

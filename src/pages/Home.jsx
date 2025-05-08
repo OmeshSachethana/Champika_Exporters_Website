@@ -3,9 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <section
-      id="home"
-      className="min-h-screen bg-gradient-to-br from-blue-50 to-white px-6 md:px-16 py-20 flex items-center"
-    >
+  id="home"
+  className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-purple-100 px-6 md:px-16 py-20 flex items-center"
+>
+
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-6">
           Welcome to Champika Exporters (Pvt) Ltd
