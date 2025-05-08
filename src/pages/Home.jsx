@@ -11,9 +11,10 @@ const Home = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-6">
           Welcome to Champika Exporters (Pvt) Ltd
         </h1>
-        <h2 className="text-4xl md:text-3xl font-bold text-orange-800 mb-6">
+
+        <p className="text-2xl text-orange-800 leading-relaxed mb-8">
           License No: 110
-        </h2>
+        </p>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
           Established in 1979, Champika Exporters is a progressive and forward-thinking Manpower Recruitment & HR Consultancy company in Sri Lanka. We specialize in identifying and connecting top talent with our esteemed clients across a wide range of industry sectors — both locally and internationally.
