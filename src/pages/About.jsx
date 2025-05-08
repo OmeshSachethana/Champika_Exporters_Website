@@ -7,7 +7,6 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6 inline-block">
             About Us
-            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-blue-500 rounded-full"></span>
           </h2>
           <p className="text-lg text-blue-800 max-w-3xl mx-auto">
             Pioneering human resource solutions since 1979
