@@ -20,12 +20,12 @@ const Destinations = () => {
       image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
       description: 'Explore vast landscapes and rich history of the largest country.'
     },
-    {
-      id: 4,
-      country: 'Kuwait',
-      image: 'https://images.unsplash.com/photo-1586769852836-bc069f74e9e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
-      description: 'Discover modern architecture and rich Arabian heritage.'
-    },
+    // {
+    //   id: 4,
+    //   country: 'Kuwait',
+    //   image: 'https://images.unsplash.com/photo-1586769852836-bc069f74e9e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
+    //   description: 'Discover modern architecture and rich Arabian heritage.'
+    // },
     // {
     //   id: 5,
     //   country: 'Bahrain',
