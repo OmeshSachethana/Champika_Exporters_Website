@@ -1,5 +1,5 @@
 import React from "react";
-import AdUnit from "./AdUnit"; // Adjust the path as needed
+// import AdUnit from "./AdUnit"; // Uncomment when needed
 
 const Home = () => {
   return (
@@ -12,23 +12,43 @@ const Home = () => {
           Welcome to Champika Exporters (Pvt) Ltd
         </h1>
 
-        <p className="text-2xl text-orange-800 leading-relaxed mb-8">
+        <p className="text-2xl text-orange-800 leading-relaxed mb-4">
           License No: 110
         </p>
 
-        <p className="text-lg text-gray-700 leading-relaxed mb-8">
-          Established in 1979, Champika Exporters is a progressive and forward-thinking Manpower Recruitment & HR Consultancy company in Sri Lanka. We specialize in identifying and connecting top talent with our esteemed clients across a wide range of industry sectors — both locally and internationally.
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          Founded in 1979 and headquartered in Nugegoda, Sri Lanka, <strong>Champika Exporters (Pvt) Ltd</strong> is one of the country’s most established manpower recruitment and HR consultancy firms. For over four decades, we’ve proudly connected thousands of skilled and semi-skilled individuals with career opportunities across the globe.
         </p>
 
-        {/* Ad Unit */}
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          We believe in revitalizing lives and empowering businesses by bridging the gap between demand and talent. With expertise across healthcare, construction, hospitality, education, logistics, agriculture, and many other sectors, we strive to be your trusted HR partner — delivering exceptional candidates tailored to your needs.
+        </p>
+
+        {/* Ad Unit
         <AdUnit />
+        */}
 
-        <p className="text-gray-700 leading-relaxed mb-8">
-          Backed by a team of skilled consultants, robust infrastructure, and a deep understanding of recruitment needs, we are proud to offer tailor-made solutions with an unwavering commitment to quality, trust, and professionalism. With our motto — <span className="italic font-medium text-blue-700">"Right person for the Right job"</span> — we aim to bridge opportunities and create lasting partnerships.
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          Our strength lies in our deep industry experience, a robust candidate database, and a relentless focus on quality. All of our consultants are trained professionals who follow the guidelines set by the Sri Lanka Bureau of Foreign Employment. We go beyond simple recruitment — offering pre-deployment training, orientation, visa guidance, and continuous support to both clients and candidates.
         </p>
 
-        <p className="text-gray-700 leading-relaxed">
-          Whether you're a client looking for the perfect candidate or a job seeker in search of the right opportunity, <strong>Champika Exporters</strong> is here to serve with dedication, integrity, and innovation.
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          <strong>Why choose Champika Exporters?</strong>
+          <ul className="list-disc text-left pl-8 mt-2 text-base text-gray-700">
+            <li>Over 40 years of industry leadership</li>
+            <li>Customized staffing solutions across diverse sectors</li>
+            <li>Reliable, fast, and cost-effective recruitment process</li>
+            <li>Access to a vast, constantly updated candidate database</li>
+            <li>Strong focus on ethics, professionalism, and confidentiality</li>
+          </ul>
+        </p>
+
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          We stand by our motto — <span className="italic font-semibold text-blue-800">“Right person for the Right job”</span> — ensuring each placement brings value to both the employer and employee.
+        </p>
+
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          Ready to build your future workforce or embark on your next career journey? Let Champika Exporters (Pvt) Ltd be your guide. We invite you to explore our services and experience the difference of working with a truly committed recruitment partner.
         </p>
 
         <div className="mt-10">
