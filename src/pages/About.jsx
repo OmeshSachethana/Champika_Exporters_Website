@@ -9,33 +9,33 @@ const About = () => {
             About Us
           </h2>
           <p className="text-lg text-blue-800 max-w-3xl mx-auto">
-            Pioneering human resource solutions since 1979
+            Pioneering human resource excellence in Sri Lanka since 1979
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 mb-20">
-          <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-blue-500">
+          <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
             <h3 className="text-2xl font-semibold text-blue-800 mb-4">Our Story</h3>
             <p className="text-gray-700 leading-relaxed">
-              Established in 1979, Champika Exporters (Pvt) Ltd is a progressive and forward-thinking company dedicated to finding innovative human resources for our clients. We continue to look for new opportunities while maintaining the highest standards of professionalism.
+              Champika Exporters (Pvt) Ltd was founded in 1979 in Nugegoda, Sri Lanka, with a mission to bridge the gap between skilled Sri Lankan manpower and global demand. Over the decades, we have built a strong reputation as a trusted manpower recruitment and HR consultancy firm — delivering value to both clients and job seekers worldwide.
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-blue-500">
+          <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
             <h3 className="text-2xl font-semibold text-blue-800 mb-4">Our Approach</h3>
             <p className="text-gray-700 leading-relaxed">
-              Our unique recruiting approach allows our consultants to specialize in specific areas, providing better service to both clients and candidates. We are experts in placing permanent, temporary, and contract professionals across various industries.
+              Our consultants specialize in distinct industry sectors, enabling a tailored recruitment experience. We offer placement for permanent, temporary, and contract roles — always prioritizing quality, transparency, and professional integrity in our services.
             </p>
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-16">
+        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-20">
           <div className="md:flex">
             <div className="md:w-1/2 bg-blue-900 p-10 flex items-center">
               <div>
-                <h3 className="text-3xl font-bold text-white mb-6">Why Choose Us?</h3>
+                <h3 className="text-3xl font-bold text-white mb-6">Why Choose Champika Exporters?</h3>
                 <p className="text-blue-200 leading-relaxed">
-                  We invite you to explore our company as a gateway into business and relationships. Discover the many ways we apply knowledge to fulfill our client's requirements through market expertise and lasting partnerships.
+                  Our recruitment process is not just about filling vacancies — it’s about building partnerships. We follow ethical practices, offer ongoing training and orientation, and leverage a constantly updated talent database to connect the right candidate with the right job.
                 </p>
               </div>
             </div>
@@ -46,7 +46,7 @@ const About = () => {
                   Our Mission
                 </h3>
                 <p className="text-blue-100 leading-relaxed pl-11">
-                  To be Sri Lanka's leading human resource supplier — reliable, stable, and committed — providing value-added services to all industry sectors.
+                  To be Sri Lanka's leading human resource supplier — reliable, stable, and committed — providing value-added services to all industry sectors through a people-first approach.
                 </p>
               </div>
               <div>
@@ -55,25 +55,48 @@ const About = () => {
                   Our Vision
                 </h3>
                 <p className="text-blue-100 leading-relaxed pl-11">
-                  We are committed to consistently provide innovative recruitment solutions by building a strong professional team focused on market knowledge, relationship and excellence in everything we do.
+                  We aim to transform the recruitment landscape by integrating modern technology, deep market understanding, and human-centered values to create meaningful employment opportunities globally.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="text-center">
-  <a
-    href="https://applications.slbfe.lk/jobbank/jsearchdisplay_an_m.asp?an=0110"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl">
-      Learn More About Our Services
-    </button>
-  </a>
-</div>
+        <div className="grid md:grid-cols-2 gap-12 mb-16">
+          <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
+            <h3 className="text-2xl font-semibold text-purple-800 mb-4">Our Values</h3>
+            <ul className="list-disc pl-6 text-gray-700 leading-relaxed space-y-2">
+              <li>Integrity and transparency in all dealings</li>
+              <li>Client-focused service with measurable outcomes</li>
+              <li>Confidentiality and ethical recruitment practices</li>
+              <li>Continuous learning and staff training</li>
+              <li>Environmental and social responsibility</li>
+            </ul>
+          </div>
 
+          <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
+            <h3 className="text-2xl font-semibold text-purple-800 mb-4">Industries We Serve</h3>
+            <ul className="list-disc pl-6 text-gray-700 leading-relaxed space-y-2">
+              <li>Healthcare (Doctors, Nurses, Lab Techs)</li>
+              <li>Construction & Engineering</li>
+              <li>Education (Teachers, Lecturers)</li>
+              <li>Hospitality & Tourism</li>
+              <li>Transport, Shipping, IT & More</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="text-center">
+          <a
+            href="https://applications.slbfe.lk/jobbank/jsearchdisplay_an_m.asp?an=0110"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl">
+              Learn More About Our Recruitment Process
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   );
