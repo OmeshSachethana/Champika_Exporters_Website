@@ -53,7 +53,7 @@ const Home = () => {
 
         <div className="mt-10">
           <a
-            href="#contact"
+            href="/travelers-add"
             className="inline-block bg-blue-700 text-white px-6 py-3 rounded-full font-medium shadow hover:bg-blue-800 transition"
           >
             Get in Touch
