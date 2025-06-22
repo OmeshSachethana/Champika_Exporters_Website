@@ -62,9 +62,13 @@ const Expertise = () => {
           <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
             We understand that recruitment is more than just filling a position — it’s about aligning skills, personality, and goals to ensure long-term success. Our screening, testing, and orientation processes are designed to ensure both clients and candidates are set up for success from day one.
           </p>
-          <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105">
+          <a
+            href="/travelers-add"
+            className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
+          >
             Request Manpower Solutions
-          </button>
+          </a>
+
         </div>
       </div>
     </section>
