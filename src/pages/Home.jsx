@@ -1,7 +1,12 @@
-import React from "react";
-// import AdUnit from "./AdUnit"; // Uncomment when needed
+import React, { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    if (window.adsbygoogle) {
+      window.adsbygoogle.push({});
+    }
+  }, []);
+
   return (
     <section
       id="home"
@@ -17,22 +22,31 @@ const Home = () => {
         </p>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
-          Founded in 1979 and headquartered in Nugegoda, Sri Lanka, <strong>Champika Exporters (Pvt) Ltd</strong> is one of the country’s most established manpower recruitment and HR consultancy firms. For over four decades, we’ve proudly connected thousands of skilled and semi-skilled individuals with career opportunities across the globe.
+          Founded in 1979 and headquartered in Nugegoda, Sri Lanka, <strong>Champika Exporters (Pvt) Ltd</strong> is one of the country's most established manpower recruitment and HR consultancy firms. For over four decades, we've proudly connected thousands of skilled and semi-skilled individuals with career opportunities across the globe.
         </p>
+
+        {/* Ad Unit */}
+        <div key="ad-unit-1" className="my-8 w-full min-h-[90px]">
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-7716352626622549"
+            data-ad-slot="5333113888"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </div>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
           We believe in revitalizing lives and empowering businesses by bridging the gap between demand and talent. With expertise across healthcare, construction, hospitality, education, logistics, agriculture, and many other sectors, we strive to be your trusted HR partner — delivering exceptional candidates tailored to your needs.
         </p>
 
-        {/* Ad Unit
-        <AdUnit />
-        */}
-
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
           Our strength lies in our deep industry experience, a robust candidate database, and a relentless focus on quality. All of our consultants are trained professionals who follow the guidelines set by the Sri Lanka Bureau of Foreign Employment. We go beyond simple recruitment — offering pre-deployment training, orientation, visa guidance, and continuous support to both clients and candidates.
         </p>
 
-        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+        {/* Fixed the ul inside p issue by separating them */}
+        <div className="text-lg text-gray-700 leading-relaxed mb-6">
           <strong>Why choose Champika Exporters?</strong>
           <ul className="list-disc text-left pl-8 mt-2 text-base text-gray-700">
             <li>Over 40 years of industry leadership</li>
@@ -41,10 +55,10 @@ const Home = () => {
             <li>Access to a vast, constantly updated candidate database</li>
             <li>Strong focus on ethics, professionalism, and confidentiality</li>
           </ul>
-        </p>
+        </div>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
-          We stand by our motto — <span className="italic font-semibold text-blue-800">“Right person for the Right job”</span> — ensuring each placement brings value to both the employer and employee.
+          We stand by our motto — <span className="italic font-semibold text-blue-800">"Right person for the Right job"</span> — ensuring each placement brings value to both the employer and employee.
         </p>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
