@@ -71,15 +71,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2">
                 <Mail className="text-gray-400 mt-1" size={18} />
-                <span className="text-gray-400">info@champikaexporters.com</span>
+                <span className="text-gray-400">champikaexpor@gmail.com</span>
               </li>
               <li className="flex items-start space-x-2">
                 <Phone className="text-gray-400 mt-1" size={18} />
-                <span className="text-gray-400">+94 123 456 789</span>
+                <span className="text-gray-400">+94 71 431 3671</span>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="text-gray-400 mt-1" size={18} />
-                <span className="text-gray-400">123 Main Street, Colombo, Sri Lanka</span>
+                <span className="text-gray-400">No.107 1/1, Stanley Thilakarathna Mawatha, Nugegoda, Sri Lanka.</span>
               </li>
             </ul>
           </div>
