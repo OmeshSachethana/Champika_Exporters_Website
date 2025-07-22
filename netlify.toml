@@ -1,9 +1,5 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "20"
+  publish = "."   # publish root folder (where your index.html is)
 
 [[redirects]]
   from = "/*"
